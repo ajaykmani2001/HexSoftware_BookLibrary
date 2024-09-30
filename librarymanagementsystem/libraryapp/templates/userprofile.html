@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Profile</title>
+</head>
+<body>
+{{data.user.username}}
+<br>
+{{data.user.email}}
+<br>
+{{data.college_name}}
+<br>
+
+<a href="http://127.0.0.1:8000/libraryapp/editprofile/{{user.id}}">Update Profile</a>
+<a href="http://127.0.0.1:8000/libraryapp/logout/">logout</a>
+</body>
+</html>
